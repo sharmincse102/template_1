@@ -1,0 +1,36 @@
+body {
+	margin : 0;
+	padding : 0;
+	background :#000;
+}
+
+h1 {
+	color:red;
+}
+
+h2 {
+	color:#75C1F3;
+}
+
+.container {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.button {
+	position:relative;
+	text-align:center;
+	width:250px;
+	padding:40px;
+	font-size:35px;
+	color:#15f4ee;
+	font-family:poppins;
+	font-weight;400;
+	border:5px solid #15f4ee;
+	text-transform:uppercase;
+	letter-spacing:15px;
+	cursor:pointer;
+	border-radius:100px;
+	transition:1.5s;
+}
